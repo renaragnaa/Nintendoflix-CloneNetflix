@@ -1,0 +1,116 @@
+:root{
+    --vermelho: #E50914;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* a marcação "*" no css remete a regras aplicáveis a toda a página */
+/*base principal*/
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+header .logo{
+    margin-left: 30px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
+    max-width: 200px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 15px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+
+/*jogo principal*/
+.jogo-principal{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    /*background: linear-gradient(rgba(0,0,0,.90),rgba(0,0,0,.60) 100%) ,url(../Imagens/mariokart8deluxe.jpg);*/
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.jogo-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.titulo{
+    font-size: 50px;
+    font-family:'Raleway', sans-serif;
+}
+.original-nintendo{
+    max-width: 150px;
+}
+
+.botao{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .5s ease all;
+    border-radius: 3%;
+}
+.botao:hover{
+    background-color: white;
+}
+
+.botao i{
+    margin-right: 15px;
+}
+
+.jogo-principal .container{
+    width: 50%;
+    text-align: justify;
+}
+.box-jogo{
+    height: 400px;
+    width: 150px;
+    display: block;
+}
+.categorias{
+    font-family:'Raleway', sans-serif;
+    padding: 15px;
+    font-size: 25px;
+    margin-top: 30px;
+    background-image: linear-gradient(rgba(255,0,0,0), rgb(0, 0, 0));
+
+}
+main{
+    background: linear-gradient(rgba(0,0,0,.90),rgba(0,0,0,.60) 100%) ,url(../Imagens/mariokart8deluxe.jpg);
+    background-size: cover;
+}

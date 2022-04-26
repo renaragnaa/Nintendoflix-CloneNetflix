@@ -1,0 +1,29 @@
+@media screen and (max-width:700px) {
+  header .container{
+      display: flex;
+      flex-direction: column;
+  }  
+  .botao {
+      margin-top: 5px;
+      width: 140px;
+      height: 40px;
+      padding: 1px;
+      font-size: 70%;
+    }
+  .jogo-principal{
+      margin-top: 10%;
+  }
+  .carrosel-jogos{
+      margin-top: 10%;
+  }
+  .jogo-principal h3{
+      font-size: 130%;
+  }
+  .jogo-principal .container{
+    text-align: justify;
+    width: 100%;
+  }
+  .jogo-principal .descricao{
+      margin-bottom: 15%;
+  }
+}
